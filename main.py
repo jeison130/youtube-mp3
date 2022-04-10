@@ -11,6 +11,7 @@ ydl_opts = {
         'preferredcodec': 'mp3',
         'preferredquality': '190',
     }],
+    'noplaylist': True,
     'outtmpl': './output/%(title)s.%(ext)s',
 }
 
